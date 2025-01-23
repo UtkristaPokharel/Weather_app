@@ -9,7 +9,6 @@ export async function checkWeather() {
 
 	document.querySelector(".city").innerHTML=data.address;
 	document.querySelector(".temp").innerHTML=data.currentConditions.feelslike;
-	;
 	document.querySelector(".condition").innerHTML=data.currentConditions.conditions;
 	document.querySelector("#sunrise").innerHTML=data.currentConditions.sunrise;
 	document.querySelector("#sunset").innerHTML=data.currentConditions.sunset;
