@@ -56,3 +56,8 @@ export async function checkWeather(city) {
     }
 }
 
+// Load default city on page load
+document.addEventListener("DOMContentLoaded", () => {
+	const defaultCity = "Butwal";
+	checkWeather(defaultCity);
+ });
