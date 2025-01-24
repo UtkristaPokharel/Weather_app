@@ -45,6 +45,8 @@ export async function checkWeather(city) {
             weatherIcon.src = isDay ? "img/sunny.png" : "img/clear_night.png";
         } else if (condition === "partially cloudy") {
             weatherIcon.src = isDay ? "img/partially_sunny.png" : "img/cloudy_night.png";
+        } else if (condition === "rainy") {
+            weatherIcon.src = isDay ? "img/rainy.png" : "img/rainy.png";
         } else {
             weatherIcon.src = isDay ? "img/sunny.png" : "img/clear_night.png";
         }
