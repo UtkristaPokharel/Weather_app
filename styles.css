@@ -5,41 +5,42 @@
 
 }
 
-body,html {
+body,
+html {
 	font-family: 'Arial', sans-serif;
 	/* background:linear-gradient(to top, rgb(236 75 75), rgb(101 96 236)); */
-	background: linear-gradient(to bottom, rgb(255 105 170) ,rgb(223,153,191),rgb(216, 177, 199));
+	background: linear-gradient(to bottom, rgb(255 105 170), rgb(223, 153, 191), rgb(216, 177, 199));
 	color: #FFF;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	width: 100vw;
 	height: 100vh;
- }
- 
- .container {
+}
+
+.container {
 	/* background:linear-gradient(to left, rgb(221, 15, 15), rgb(36 28 225)); */
 	display: flex;
 	flex-direction: column;
-	background: linear-gradient(to left, rgb(255 105 170) ,rgb(223,153,191));
+	background: linear-gradient(to left, rgb(255 105 170), rgb(223, 153, 191));
 	border-radius: 15px;
 	padding: 20px;
 	justify-content: space-evenly;
 	width: 500px;
-	height:600px;
+	height: 600px;
 	text-align: center;
 	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
- }
- 
- /* Search Bar */
- .search-bar {
+}
+
+/* Search Bar */
+.search-bar {
 	display: flex;
 	gap: 10px;
 	margin-bottom: 20px;
 	justify-content: space-evenly;
- }
+}
 
- .search-bar input {
+.search-bar input {
 	width: 350px;
 	height: 50px;
 	padding: 10px;
@@ -47,9 +48,9 @@ body,html {
 	text-align: center;
 	border-radius: 25px;
 	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
- }
+}
 
- .search-bar button {
+.search-bar button {
 	width: 50px;
 	justify-content: center;
 	text-align: center;
@@ -59,63 +60,62 @@ body,html {
 	border-radius: 100px;
 	cursor: pointer;
 	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
- }
+}
 
- .search-bar button img{
+.search-bar button img {
 	width: 20px;
- }
- 
- /* Weather Info */
- .weather-info h1 {
+}
+
+/* Weather Info */
+.weather-info h1 {
 	font-size: 1.8rem;
 	margin-bottom: 5px;
- }
+}
 
- .weather-info h2 {
+.weather-info h2 {
 	font-size: 2.5rem;
 	margin-bottom: 5px;
 	color: #FFD700;
- }
+}
 
- .weather-info p {
+.weather-info p {
 	margin-bottom: 10px;
 	font-size: 1.2rem;
- }
+}
 
- .weather-info img {
+.weather-info img {
 	width: 80px;
 	margin: 10px auto;
- }
- 
- /* Sun Details */
- .sun-details {
+}
+
+/* Sun Details */
+.sun-details {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	gap: 10px;
 	margin-top: 20px;
- }
+}
 
- /* Weather details */
- .weather-details {
+/* Weather details */
+.weather-details {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	gap: 10px;
 	margin-top: 20px;
- }
+}
 
- .detail {
+.detail {
 	/* background: #4B0082; */
 	padding: 10px;
 	border-radius: 8px;
 	text-align: center;
- }
+}
 
- .detail img {
+.detail img {
 	width: 25px;
 	margin-bottom: 5px;
- }
+}
 
- .detail p {
+.detail p {
 	font-size: 0.9rem;
- }
- 
+}
